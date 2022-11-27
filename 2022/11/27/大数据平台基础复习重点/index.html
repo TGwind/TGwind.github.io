@@ -1,0 +1,404 @@
+<!DOCTYPE html><html class="hide-aside" lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>大数据平台基础复习重点 | 忘川知路</title><meta name="keywords" content="大数据平台基础,hadoop"><meta name="author" content="浩茫"><meta name="copyright" content="浩茫"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="大数据概述1、大数据内涵  从对象角度来看，大数据是数据规模超出传统数据库处理能力的数据集合 从技术角度来看，大数据是从海量数据中迅速获取有价值信息的技术 从应用角度来看，大数据是将特定数据集合应用相关技术获取的价值的行为 从商业模式角度来看，大数据是企业获得商业价值的业务创新方向 从思维方式角度来看，大数据是从第三范式分离出来的一种科研范式  2、大数据4V特征  海量化 多样化 快速化 价值密">
+<meta property="og:type" content="article">
+<meta property="og:title" content="大数据平台基础复习重点">
+<meta property="og:url" content="http://example.com/2022/11/27/%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%B9%B3%E5%8F%B0%E5%9F%BA%E7%A1%80%E5%A4%8D%E4%B9%A0%E9%87%8D%E7%82%B9/index.html">
+<meta property="og:site_name" content="忘川知路">
+<meta property="og:description" content="大数据概述1、大数据内涵  从对象角度来看，大数据是数据规模超出传统数据库处理能力的数据集合 从技术角度来看，大数据是从海量数据中迅速获取有价值信息的技术 从应用角度来看，大数据是将特定数据集合应用相关技术获取的价值的行为 从商业模式角度来看，大数据是企业获得商业价值的业务创新方向 从思维方式角度来看，大数据是从第三范式分离出来的一种科研范式  2、大数据4V特征  海量化 多样化 快速化 价值密">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://example.com/img/cover02.png">
+<meta property="article:published_time" content="2022-11-27T15:30:21.221Z">
+<meta property="article:modified_time" content="2022-11-27T15:45:34.006Z">
+<meta property="article:author" content="浩茫">
+<meta property="article:tag" content="大数据平台基础">
+<meta property="article:tag" content="hadoop">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/img/cover02.png"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://example.com/2022/11/27/%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%B9%B3%E5%8F%B0%E5%9F%BA%E7%A1%80%E5%A4%8D%E4%B9%A0%E9%87%8D%E7%82%B9/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"limitCount":50,"languages":{"author":"作者: 浩茫","link":"链接: ","source":"来源: 忘川知路","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '大数据平台基础复习重点',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2022-11-27 23:45:34'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.3.0"></head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/avatar.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">15</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">14</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">8</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 文章</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-user"></i><span> 关于作者</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('/img/cover02.png')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">忘川知路</a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 文章</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-user"></i><span> 关于作者</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">大数据平台基础复习重点</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-11-27T15:30:21.221Z" title="发表于 2022-11-27 23:30:21">2022-11-27</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-11-27T15:45:34.006Z" title="更新于 2022-11-27 23:45:34">2022-11-27</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/hadoop%E7%94%9F%E6%80%81%E7%B3%BB%E7%BB%9F/">hadoop生态系统</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="大数据平台基础复习重点"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h2 id="大数据概述"><a href="#大数据概述" class="headerlink" title="大数据概述"></a>大数据概述</h2><p>1、大数据内涵</p>
+<ul>
+<li>从对象角度来看，大数据是数据规模超出传统数据库处理能力的数据集合</li>
+<li>从技术角度来看，大数据是从海量数据中迅速获取有价值信息的技术</li>
+<li>从应用角度来看，大数据是将特定数据集合应用相关技术获取的价值的行为</li>
+<li>从商业模式角度来看，大数据是企业获得商业价值的业务创新方向</li>
+<li>从思维方式角度来看，大数据是从第三范式分离出来的一种科研范式</li>
+</ul>
+<p>2、大数据4V特征</p>
+<ul>
+<li>海量化</li>
+<li>多样化</li>
+<li>快速化</li>
+<li>价值密度低</li>
+</ul>
+<p>3、大数据与物联网、、云计算、人工智能、5G的关系</p>
+<p>​	物联网、云计算、5G是大数据的底层架构，大数据依托云计算来处理大数据，人工智能是大数据的场景应用，5G发展落地物联网才能发展，而物联网和云计算发展则是推动大数据快速发展的主要原因。</p>
+<h2 id="Hadoop生态系统"><a href="#Hadoop生态系统" class="headerlink" title="Hadoop生态系统"></a>Hadoop生态系统</h2><p>1、Hadoop生态系统组成及各组件对的基本功能</p>
+<ul>
+<li>Hadoop Common：是Hadoop最底层的模块，为其他组件提供各种工具，是其他模块基础</li>
+<li>HDFS：分布式文件系统，存储数据、三大组件之一</li>
+<li>YARN：统一资源管理和资源调度框架</li>
+<li>MapReduce：分布式并行处理的编程模型、计算框架。解决大数据的计算问题，Map可以对小数据集进行本地计算并输出中间结果，Reduce对各个map阶段结果进行汇总计算得到最终结果</li>
+<li>Spark：新一代计算框架，Spark是基于内存计算的大数据并行计算框架。Spark基于内存计算，提高了在大数据环境下数据处理的实时性</li>
+<li>HBase：分布式的、面向列的开源数据库</li>
+<li>Zookeeper：分布式应用协调框架，提供分布式协调服务以及诸如统一命名、配置管理、分布式锁等分布式基础服务</li>
+<li>Hive： hive 是一种底层封装了Hadoop 的数据仓库处理工具，使用类SQL 的hiveSQL 语言实现数据查询</li>
+<li>Pig：对大型数据集进行分析和评估的工具</li>
+<li>Impala：提供HDFS、HBase上的交互式查询的sql接口，查询速度快，性能优于hive，不基于MapReduce</li>
+<li>Mahout：一个机器学习、数据挖掘库</li>
+<li>Flume：高可用、高可靠、分布式的海量日志采集、聚合和传输的框架</li>
+<li>Sqoop：sql to hdoop 的缩写，用于关系型数据库hadoop之间双向转换</li>
+<li>Kafka：高吞吐量、分布式的发布订阅消息系统，处理消费者在网站中的动作数据流</li>
+<li>Ambari：基于Web的工具，支持hadoop集群的安装、部署、配置和管理</li>
+</ul>
+<p>2、理解Hadoop的三种运行模式、各自优缺点</p>
+<ul>
+<li>单机模式：只在一台计算机上运行，不需任何的配置，hadoop所有的守护进程都成了一个java进程，存储采用本地文件系统，没有采用分布式文件系统</li>
+<li>伪分布式模式：只在一台计算机上运行，所有的守护进程都在一个节点上运行，这个节点模拟了一个具有hadoop完整功能的微型集群，采用hdfs，但是hdfs的名称节点和数据节点都位同一台计算机</li>
+<li>完全分布式：多台计算机，守护进程运行在不同的节点上，采用HDFS，HDFS名称节点和数据节点位于不同计算机上</li>
+</ul>
+<h2 id="HDFS"><a href="#HDFS" class="headerlink" title="HDFS"></a>HDFS</h2><p>1、HDFS体系架构</p>
+<img src="https://img-blog.csdnimg.cn/20190203094735695.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3ljX2hlbg==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述" style="zoom: 67%;" />
+
+<p>HDFS采⽤的是master&#x2F;slaves这种主从的结构模型来管理数据，这种结构模型主要由 四个部分组成，分别是</p>
+<blockquote>
+<p>Client(客户端)、Namenode(名称节点)、Datanode(数据节点)和SecondaryNameNode。</p>
+</blockquote>
+<p>NameNode</p>
+<ul>
+<li>管理 HDFS 的命名空间，并以 fsimage 和 edit 进⾏持久化保存。</li>
+<li>在内存中维护数据块的映射信息</li>
+<li>实施副本冗余策略</li>
+<li>处理客户端的访问请求</li>
+</ul>
+<p>DataNode</p>
+<ul>
+<li><p>存储真正的数据 ( 块进⾏存储 </p>
+</li>
+<li><p>执⾏数据块的读写操作</p>
+</li>
+<li><p>⼼跳机制（ 3 秒）</p>
+</li>
+</ul>
+<p>2、HDFS读写过程</p>
+<p>客户端询问namenode得到文件元数据信息（文件各个块位置信息。存储在哪个namenode），客户端直接连接对应的datenode节点来并行读取数据块，最后进行组装得到完整文件</p>
+<p>从编程角度看</p>
+<ol>
+<li><p>客户端生成一个FileSystem实例，并使用此实例的open()函数打开HDFS上的一个文件</p>
+</li>
+<li><p>FileSystem用RPC调用NameNode，得到文件的数据块信息，对于每一个数据块，NameNode返回保存数据块的数据节点的地址。</p>
+</li>
+<li><p>FileSystem实例获得地址信息后，生成一个FSDataInputStream对象实例返回给客户端。</p>
+</li>
+<li><p>客户端向FSDataInputStream发出读取数据的read()调用</p>
+</li>
+<li><p>FSDataInputStream收到read()调用请求，其封装的DFSInputStream选择与第一个数据块最近的DataNode并读取相应的数据返回给客户端，当读完数据块后，DFSInputStream关闭和此数据节点的连接</p>
+</li>
+<li><p>DFSInputStream依次选择后续数据块的最近DataNode节点并读取数据返回给客户端，直到最后一个数据块读取完毕。在读取数据的过程中，如果客户端在与数据节点通信出现错误，则尝试连接包含此数据块的下一个数据节点。</p>
+</li>
+<li><p>当客户端读取完毕数据的时候，调用FSDataInputStream的close函数，关闭文件</p>
+</li>
+</ol>
+<p>3、HDFS高可靠性机制：</p>
+<ol>
+<li><p>元数据备份</p>
+</li>
+<li><p>Secondary NameNode</p>
+</li>
+<li><p>Backup Node 备份</p>
+</li>
+<li><p>HDFS NameNode HA的高可用机制</p>
+</li>
+<li><p>HDFS NameNode Federation的联邦机制</p>
+</li>
+<li><p>HDFS Snapshotos 的快照机制</p>
+</li>
+</ol>
+<p>4、备份节点和Secondary NameNode的区别：</p>
+<p>EditLog（操作日志文件）FsImage（用于维护文件系统树以及文件树中所有文件和目录的元数据）</p>
+<p>备份节点Backup Node的主要职责是维护一份从NameNode同步过来的FsImage，同时还接收EditLog文件的日志流，并把它持久化到硬盘，在内存中维护和NameNode一样的元数据，是NameNode的备份。</p>
+<p>Secondary NameNode的主要职责是将NameNode的EditLog合并到FsImage文件中，即对元数据进行定期更新和备份，它不取代NameNode也不是NameNode的备份，只是NameNode的一个助手节点，帮助NameNode更好的工作帮助 NameNode 合并 fsimage 和 edits ⽂件，不能实时同步，不能作为热备份节点</p>
+<p>5、了解HDFS NameNode HA高可用机制，解决了什么问题？</p>
+<p><strong>HDFS NameNode HA</strong>机制解决<strong>NameNode</strong>的单点故障问题</p>
+<h2 id="MapReduce"><a href="#MapReduce" class="headerlink" title="MapReduce"></a>MapReduce</h2><p>1、MapReduce作业执行流程</p>
+<ol>
+<li>Mapreduce作业执行流程分为五个阶段，是InputFormat 、Map、Shuffle、Reduce、OutputFormat五个阶段。</li>
+<li>InputFormat模块对输入的数据预处理，将输入分割为多个split文件，再通过Record按行读取内容并转换为&lt;key,value&gt;键值对给map进行处理。</li>
+<li>Map模块根据用户自定义的映射规则，输出一系列的键值对，Shuffle模块为了让Reduce可以并行处理Map的结果，从而对Map的输出进行一定的排序、分区、合并、归并等操作得到&lt;key,List(value)&gt;形式的中间结果，再交给Reduce进行处理</li>
+<li>Reduce模块将Shuffle模块得到的中间结果作为输入，执行用户自定义的逻辑、输出&lt;key,value&gt;键值对给OutputFormat</li>
+<li>OutputFormat模块先验证输出目录是否已经存在，以及输出结果类型是否符合配置文件中的配置类型，都满足，则将Reduce的结果输出到分布式文件系统</li>
+</ol>
+<p>2、与Java类型相比较，MapReduce中定义的数据类型有哪些特点？</p>
+<ul>
+<li><p>数据类型都实现了Writable接口，以便用这些类型定义的数据可以被序列化进行网络传输和文件存储</p>
+</li>
+<li><p>所有的数据类型都要经过网络传输，必须实现序列化与反序列化</p>
+</li>
+<li><p>整个MapReduce中所有的数据都以key,value&gt;键值对形式存在，数据最多只能有两列，K一列，V一列</p>
+</li>
+</ul>
+<p>3、shuffle机制</p>
+<ul>
+<li><p>Shuffle的作用简言之就是洗牌、发牌，将Map阶段处理的数据进行处理后传递给Reduce阶段。</p>
+</li>
+<li><p>Shuffle会持续将 Map阶段 的结果输出到默认大小为 100M 的环形缓冲区，保存的是 key&#x2F;value，Partition 分区信息等。当缓冲区被填满时会将覆盖掉的部分数据溢出存放到本地磁盘中，在将数据写入磁盘之前需要对数据进行一次排序的操作，如果配置了combiner，还会将有相同分区号和 key 的数据进行排序。把所有溢出的临时文件进行一次合并操作，以确保一个 Map阶段 最终只产生一个中间数据文件。</p>
+</li>
+<li><p>Reduce阶段启动 Fetcher 线程到已经完成 Map阶段 的节点上复制一份属于自己的数据，这些数据默认会保存在内存的缓冲区中，当内存的缓冲区达到一定的阀值的时候，就会将数据写到磁盘之上。在 Reduce 阶段远程复制数据的同时，会在后台开启两个线程对内存到本地的数据文件进行合并操作。在对数据进行合并的同时，会进行排序操作，由于 Map 阶段已经对数据进行了局部的排序，Reduce阶段只需保证 Copy 的数据的最终整体有效性即可。</p>
+</li>
+</ul>
+<p>一、Map端的shuffle</p>
+<p>Map端会处理输入数据并产生中间结果，这个中间结果会写到本地磁盘，而不是HDFS。每个Map的输出会先写到内存缓冲区中，当写入的数据达到设定的阈值时，系统将会启动一个线程将缓冲区的数据写到磁盘，这个过程叫做spill。</p>
+<p>在spill写入之前，会先进行二次排序，首先根据数据所属的partition进行排序，然后每个partition中的数据再按key来排序。partition的目是将记录划分到不同的Reducer上去，以期望能够达到负载均衡，以后的Reducer就会根据partition来读取自己对应的数据。接着运行combiner(如果设置了的话)，combiner的本质也是一个Reducer，其目的是对将要写入到磁盘上的文件先进行一次处理，这样，写入到磁盘的数据量就会减少。最后将数据写到本地磁盘产生spill文件(spill文件保存在{mapred.local.dir}指定的目录中，Map任务结束后就会被删除)。</p>
+<p>最后，每个Map任务可能产生多个spill文件，在每个Map任务完成前，会通过多路归并算法将这些spill文件归并成一个文件。至此，Map的shuffle过程就结束了。</p>
+<p>二、Reduce端的shuffle</p>
+<p>Reduce端的shuffle主要包括三个阶段，copy、sort(merge)和reduce。</p>
+<p>首先要将Map端产生的输出文件拷贝到Reduce端，但每个Reducer如何知道自己应该处理哪些数据呢？因为Map端进行partition的时候，实际上就相当于指定了每个Reducer要处理的数据(partition就对应了Reducer)，所以Reducer在拷贝数据的时候只需拷贝与自己对应的partition中的数据即可。每个Reducer会处理一个或者多个partition，但需要先将自己对应的partition中的数据从每个Map的输出结果中拷贝过来。</p>
+<p>接下来就是sort阶段，也成为merge阶段，因为这个阶段的主要工作是执行了归并排序。从Map端拷贝到Reduce端的数据都是有序的，所以很适合归并排序。最终在Reduce端生成一个较大的文件作为Reduce的输入。</p>
+<p>最后就是Reduce过程了，在这个过程中产生了最终的输出结果，并将其写到HDFS上。</p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_40432544/article/details/121400957">shuffle工作流程</a></p>
+<h2 id="Yarn"><a href="#Yarn" class="headerlink" title="Yarn"></a>Yarn</h2><p>1、Yarn与MapReduce1.0相比有哪些优势？</p>
+<ul>
+<li><p>可扩展性：YARN利用ResourceManager和applicatoinMaster分离的架构优点分离管理资源和处理job的功能；而在MapReduce 1.0中job tracker则同时负责这两项。</p>
+</li>
+<li><p>可用性：YARN采用分而治之的思想，先为ResourceManager提供高可用性，再为YARN应用提供高可用性。YARN 的ResourceManager HA特性保证了YARN的高可用性，ResourceManager Restart特性保证了ResourceManager发生单点故障。</p>
+</li>
+<li><p>利用率：在YARN中，一个NodeManager管理一个资源池，而不是指定固定数目的Slot。而且YARN中的资源是精细化管理的，每个应用都能够按需请求资源，而不是请求一个不可分割的、对于一个特定任务而言可能太大（或太小）的Slot。</p>
+</li>
+<li><p>多租户：向MapReduce以外的其他分布式计算框架开放了Hadoop，如Spark、Storm等。</p>
+</li>
+</ul>
+<p>2、Yarn体系架构中三大核心组件及其功能</p>
+<ul>
+<li><p>ResourceManager：整个集群只有一个ResourceManager，负责集群资源的统一管理和调度</p>
+</li>
+<li><p>NodeManager：整个集群有多个NodeManager，负责单节点资源的管理和使用App</p>
+</li>
+<li><p>ApplicationMaster：每个应用程序拥有一个ApplicationMaster，负责管理应用程序</p>
+</li>
+</ul>
+<p>3、联邦机制Yarn Federation 是为了解决何种问题而设计的，并简述起实现原理</p>
+<p>为了增强集群的水平横向扩展性。</p>
+<p>实现原理：通过联合的方式让集群可以有多个SubCluster。每个SubCluster都是一个独立的</p>
+<p>小集群，由小集群的ResourceManager分别管理一部分节点。这些小集群共同组成一个大的</p>
+<p>YARN Federation集群，实现资源的统一管理与作业调度。</p>
+<h2 id="Zookeeper"><a href="#Zookeeper" class="headerlink" title="Zookeeper"></a>Zookeeper</h2><p>1、试述ZooKeeper如何保证分布式数据的原子性操作</p>
+<p>为数据节点引入版本的概念，它表示的是对数据节点的数据内容、子节点列表或节点ACL信息的修改次数，每个数据节点都具有这三种类型的版本信息，对数据节点的任何更新操作都会引起版本的编号变化，即使前后两次变更并没有使数据内容、子节点列表或节点ACL信息发生变化，版本信息的值依然会变更。</p>
+<p>2、试述ZooKeeper如何保障数据安全</p>
+<p>ZooKeeper提供了一套完善的ACL（访问控制列表）权限控制机制来保障数据的安全，它可以针对任意用户和组进行细粒度的权限控制；权限模式（scheme）、授权对象（id）、权限（permission），通常使用”Scheme:Id:Permission”来标识一个有效的ACL信息</p>
+<blockquote>
+<p>权限模式：用来确定权限验证过程中使用的经验策略；授权对象：权限赋予的用户或一个指定实体：权限：指哪些通过权限检查后可以被允许执行的操作</p>
+</blockquote>
+<p>3.试述ZooKeeper数据一致性的核心算法ZAB</p>
+<ul>
+<li><p>原子消息广播算法ZAB，是对Paxos算法的修改与实现，获得n&#x2F;2+1票数的服务器成为Leader，其余节点是Follower.当发生客户端读&#x2F;写操作时，读操作可在所有节点上实现，但写操作必须经Leader 同意后方可执行、若有新加入的服务器，则该服务器发起一次选举，如果该服务器获得n&#x2F;2+1个票数，则此服务器将成为整个ZooKeeper集群的Leader。当Leader发生故障时，剩下的Follower将重新进行新的一轮选举。Leader选举时要求集群中的存活节点必须过半</p>
+</li>
+<li><p>ZAB的核心：定义了对于那些会改变Zookeeper服务器数据状态的事务请求的处理⽅式，即所有事务请求必须由一个全局唯一的服务器来协调处理，这个服务器就是Leader，余下的服务器则是Follower。</p>
+</li>
+<li><p>ZAB的两种基本模式：</p>
+<p>崩溃恢复：在正常情况下运行非常良好，一旦Leader出现崩溃或者由于网络原因导致Leader服务器失去了与过半Follower的联系，那么就会进入崩溃恢复模式。为了程序的正确运行，整个恢复过程后需要选举出一个新Leader,因此需要一个高效可靠的选举方法快速选举出一个Leader。</p>
+<p>消息广播：类似一个两阶段提交过程，针对客户端的事务请求， Leader服务器会为其生成对应的事务Proposal,并将其发送给集群中的其余所有机器，再分别收集各自的选票，最后进行事务提交。</p>
+</li>
+</ul>
+<h2 id="HBase"><a href="#HBase" class="headerlink" title="HBase"></a>HBase</h2><p>1、简述HBase数据模型</p>
+<ul>
+<li><p>表(Table)：一个HBase表由行和列组成，列划分为若干个 列族。</p>
+</li>
+<li><p>行(Row)：在表里面，每一行代表着一个数据对象，由行键**(Row Key)**来标识，行键会被建立索引，数据的获取通过行键完成，采用字符串。</p>
+</li>
+<li><p>列族(Column Family)：一个<strong>HBase</strong>表被分组成为许多<strong>“</strong>列族<strong>”</strong>的集合，它是基本的访问控制单元，需要在创建表时就定义好</p>
+</li>
+<li><p>列标识**(Column Qualifier)**：列族中的数据通过列标识符来进行定位，列标识也没有特定的数据类型，以二进制字节来存储。</p>
+</li>
+<li><p>单元格**(Cell)**：每一个行键，列族和列标识符共同确定一个单元，存储在单元里的数据称为单元数据，单元和单元数据也没有的挺的数据类型，以二进制字节来存储。</p>
+</li>
+<li><p>时间戳**(Timestap)**：默认每一个单元中的数据插入时都会用时间戳来进行版本标识。读取单元数据时，如果时间戳没有被指定，则默认返回最新你的数据，写入新的单元格数据时，如果没有设置时间戳，默认用当前时间，每一个列族的单元数据的版本数量都被HBase单独维护默认情况下HBase保留3个版本数据。</p>
+</li>
+</ul>
+<p>2、简述HBase的体系架构</p>
+<ul>
+<li><p>HBase采用Master&#x2F;Slave架构，HBase集群成员包括Client、ZooKeeper集群、HMaster节点、HRegionServer节点。在底层，HBase将数据存储于HDFS中</p>
+</li>
+<li><p>Client使用HBase 的RPC机制与HMaster和HRegionServer进行通信。</p>
+</li>
+<li><p>ZooKeeper提供的功能：存储-ROOT-表、HMaster和HRegionServer的地址；通过ZooKeeper，HMaster可以随时感知到多个HRegionServer的健康状态；通过选举机制避免HMaster单点故障问题</p>
+</li>
+<li><p>HMaster：管理 HRegionServer；管理和分配HRegion ；实现DDL操作；管理NameSpace和Table的元数据（实际存储在HDFS上）；权限控制（ACL）</p>
+</li>
+<li><p>HRegionServer：存放和管理本地HRegion；读&#x2F;写HDFS，管理Table中的数据；Client直接通过HRegionServer读&#x2F;写数据进行数据读写；HRegionServer和DataNode一般会放在相同的Server上，以实现数据的本地化。</p>
+</li>
+</ul>
+<h2 id="Hive"><a href="#Hive" class="headerlink" title="Hive"></a>Hive</h2><p>1、简述Hive和传统关系数据库的区别和联系</p>
+<ul>
+<li><p>联系：传统数据库都使用的SQL语句，而Hive使用的是HQL语句，在大部分情况下其增、删、改、查的语句都是类似的，因此广义上而言，学会了SQL语句的语法也就学会了HQL语句。</p>
+</li>
+<li><p>区别：</p>
+<p>数据存储:Hive数据存储在HDFS上，传统关系数据库数据存储在本地文件系统</p>
+<p>数据格式：HiveSQL数据格式可以用户自定义，传统SQL的格式由系统自己定义</p>
+<p>数据更新：Hive不支持数据记录更新而传统关系数据库支持数据记录更新</p>
+<p>索引：Hive不支持索引，传统数据库支持索引</p>
+<p>延迟性：Hive由于没有索引需要扫描整个表因此延迟性高，传统关系数据库延迟性低</p>
+<p>可扩展性：Hive的可扩展性高</p>
+<p>数据规模：Hive可以支持很大规模的数据，传统关系数据库只存放一些业务数据</p>
+</li>
+</ul>
+<p>2、试述Hive的体系架构以及各组件的功能</p>
+<p>用户接口：包括CLI、JDBC&#x2F;ODBC、HWI。其中，CLI为 Hive shell命令行接口；JDBC&#x2F;ODBC借助Thrift Server调用Hive接口与Hive进行交互；HWI是通过浏览器访问Hive。</p>
+<p>元数据存储：通常是存储在关系数据库如mysql&#x2F;derby中。Hive 将元数据存储在数据库中。Hive 中的元数据包括表的名字，表的列和分区及其属性，表的属性（是否为外部表等），表的数据所在目录等。</p>
+<p>驱动器:完成HQL 查询语句从词法分析、语法分析、编译、优化以及查询计划的生成。生成的查询计划存储在HDFS 中，并在随后由MapReduce 调用执行。</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a target="_blank" rel="noopener" href="https://blog.csdn.net/TGYAO?spm=1000.2115.3001.5343">浩茫</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://example.com/2022/11/27/%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%B9%B3%E5%8F%B0%E5%9F%BA%E7%A1%80%E5%A4%8D%E4%B9%A0%E9%87%8D%E7%82%B9/">http://example.com/2022/11/27/大数据平台基础复习重点/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://example.com" target="_blank">忘川知路</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%B9%B3%E5%8F%B0%E5%9F%BA%E7%A1%80/">大数据平台基础</a><a class="post-meta__tags" href="/tags/hadoop/">hadoop</a></div><div class="post_share"><div class="social-share" data-image="/img/cover02.png" data-sites="wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><div class="post-reward"><div class="reward-button"><i class="fas fa-qrcode"></i> 打赏</div><div class="reward-main"><ul class="reward-all"><li class="reward-item"><a href="/img/wechat.jpg" target="_blank"><img class="post-qr-code-img" src="/img/wechat.jpg" alt="微信支付"/></a><div class="post-qr-code-desc">微信支付</div></li></ul></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/2022/10/17/MapReduce%E7%9A%84API%E5%AE%9E%E7%8E%B0%E8%AF%8D%E9%A2%91%E7%BB%9F%E8%AE%A1/"><img class="next-cover" src="/img/cover02.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">MapReduce的API操作</div></div></a></div></nav><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div class="vcomment" id="vcomment"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/avatar.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">浩茫</div><div class="author-info__description">我的邮箱：tgy1817@qq.com</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">15</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">14</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">8</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/TGwind?tab=repositories"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/TGwind?tab=repositories" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="http://114.115.238.56/MyBlog/#/" target="_blank" title="Blog"><i class="fas fa-blog"></i></a><a class="social-icon" href="https://blog.csdn.net/TGYAO?type=blog" target="_blank" title="CSDN"><i class="fas fa-c"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">Hello~，欢迎留言交流</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content is-expand"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%A4%A7%E6%95%B0%E6%8D%AE%E6%A6%82%E8%BF%B0"><span class="toc-number">1.</span> <span class="toc-text">大数据概述</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Hadoop%E7%94%9F%E6%80%81%E7%B3%BB%E7%BB%9F"><span class="toc-number">2.</span> <span class="toc-text">Hadoop生态系统</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#HDFS"><span class="toc-number">3.</span> <span class="toc-text">HDFS</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#MapReduce"><span class="toc-number">4.</span> <span class="toc-text">MapReduce</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Yarn"><span class="toc-number">5.</span> <span class="toc-text">Yarn</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Zookeeper"><span class="toc-number">6.</span> <span class="toc-text">Zookeeper</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#HBase"><span class="toc-number">7.</span> <span class="toc-text">HBase</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Hive"><span class="toc-number">8.</span> <span class="toc-text">Hive</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2022/11/27/%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%B9%B3%E5%8F%B0%E5%9F%BA%E7%A1%80%E5%A4%8D%E4%B9%A0%E9%87%8D%E7%82%B9/" title="大数据平台基础复习重点"><img src="/img/cover02.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="大数据平台基础复习重点"/></a><div class="content"><a class="title" href="/2022/11/27/%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%B9%B3%E5%8F%B0%E5%9F%BA%E7%A1%80%E5%A4%8D%E4%B9%A0%E9%87%8D%E7%82%B9/" title="大数据平台基础复习重点">大数据平台基础复习重点</a><time datetime="2022-11-27T15:30:21.221Z" title="发表于 2022-11-27 23:30:21">2022-11-27</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/10/17/MapReduce%E7%9A%84API%E5%AE%9E%E7%8E%B0%E8%AF%8D%E9%A2%91%E7%BB%9F%E8%AE%A1/" title="MapReduce的API操作"><img src="/img/cover02.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="MapReduce的API操作"/></a><div class="content"><a class="title" href="/2022/10/17/MapReduce%E7%9A%84API%E5%AE%9E%E7%8E%B0%E8%AF%8D%E9%A2%91%E7%BB%9F%E8%AE%A1/" title="MapReduce的API操作">MapReduce的API操作</a><time datetime="2022-10-17T11:58:27.782Z" title="发表于 2022-10-17 19:58:27">2022-10-17</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/10/15/hadoop%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/" title="hadoop伪分布式集群搭建"><img src="/img/cover.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="hadoop伪分布式集群搭建"/></a><div class="content"><a class="title" href="/2022/10/15/hadoop%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/" title="hadoop伪分布式集群搭建">hadoop伪分布式集群搭建</a><time datetime="2022-10-15T05:16:47.911Z" title="发表于 2022-10-15 13:16:47">2022-10-15</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/10/15/HDFS%E7%9A%84API%E6%93%8D%E4%BD%9C%E5%88%9B%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/" title="HDFS的API操作"><img src="/img/cover02.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="HDFS的API操作"/></a><div class="content"><a class="title" href="/2022/10/15/HDFS%E7%9A%84API%E6%93%8D%E4%BD%9C%E5%88%9B%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/" title="HDFS的API操作">HDFS的API操作</a><time datetime="2022-10-15T02:51:12.420Z" title="发表于 2022-10-15 10:51:12">2022-10-15</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/10/13/HDFS%E5%B8%B8%E7%94%A8%E7%9A%84shell%E6%93%8D%E4%BD%9C/" title="HDFS shell操作"><img src="/img/cover03.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="HDFS shell操作"/></a><div class="content"><a class="title" href="/2022/10/13/HDFS%E5%B8%B8%E7%94%A8%E7%9A%84shell%E6%93%8D%E4%BD%9C/" title="HDFS shell操作">HDFS shell操作</a><time datetime="2022-10-13T14:35:05.157Z" title="发表于 2022-10-13 22:35:05">2022-10-13</time></div></div></div></div></div></div></main><footer id="footer" style="background-image: url('/img/cover02.png')"><div id="footer-wrap"><div class="copyright">&copy;2022 By 浩茫</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><div class="js-pjax"><script>function loadValine () {
+  function initValine () {
+    const valine = new Valine(Object.assign({
+      el: '#vcomment',
+      appId: 'H7tLu0zS1RMSAxQK3wPXfi5Z-gzGzoHsz',
+      appKey: 'W4veXT419vAgewVxWqVgh8i8',
+      avatar: 'mp',
+      serverURLs: '',
+      emojiMaps: "",
+      path: window.location.pathname,
+      visitor: true
+    }, null))
+  }
+
+  if (typeof Valine === 'function') initValine() 
+  else getScript('https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js').then(initValine)
+}
+
+if ('Valine' === 'Valine' || !true) {
+  if (true) btf.loadComment(document.getElementById('vcomment'),loadValine)
+  else setTimeout(loadValine, 0)
+} else {
+  function loadOtherComment () {
+    loadValine()
+  }
+}</script></div><canvas class="fireworks" mobile="true"></canvas><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/fireworks.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = false;
+POWERMODE.mobile = true;
+document.body.addEventListener('input', POWERMODE);
+</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
